@@ -67,56 +67,5 @@
 
 /* FOOTER */
 .footer {
-    align-items: center;
     background-color: rgb(114, 101, 101);
-    width: 100%;
-    margin-top: 50px;
-    display: flex;
-    flex-direction: column;
-}
-
-.grid-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    gap: 0px 30px;
-    grid-auto-flow: row;
-    grid-template-areas: "mediosdepago Redes contacto";
-    align-items: center;
-    justify-content: space-around;
-    justify-items: center;
-}
-
-.mediosdepago {
-    grid-area: mediosdepago;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: flex-end;
-}
-
-.Redes {
-    grid-area: Redes;
-    display: flex;
-    flex-direction: column;
-}
-
-.contacto {
-    grid-area: contacto;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-
-.redes-sociales a {
-    font-size: 40px;
-    color: black;
-    margin: 0 20px;
-    padding: 20px;
-}
-
-.redes-sociales a:hover {
-    background-color: aliceblue;
 }
