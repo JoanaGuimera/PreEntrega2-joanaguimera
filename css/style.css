@@ -34,14 +34,12 @@
     color: aliceblue;
 }
 
-.modificaciones-nav a,
-.centrar {
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    position: sticky;
-}
 
 /* MAIN */
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+}
 
 .centrar {
     display: flex;
@@ -64,8 +62,3 @@
 
 }
 
-
-/* FOOTER */
-.footer {
-    background-color: rgb(114, 101, 101);
-}
