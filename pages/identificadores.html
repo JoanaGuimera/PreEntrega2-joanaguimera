@@ -9,7 +9,7 @@
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="shortcut icon" href="./img/Favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <title>Desafio 7</title>
 </head>
 
@@ -26,11 +26,11 @@
         <nav class="navbar navbar-expand-lg" style="background-color:white">
             <div class="container-fluid">
                 <div>
-                    <a class="navbar-brand" href="./index.html">
-                        <img src="./img/Logo Tags Circular.png" alt="" width="60" height="60">
+                    <a class="navbar-brand" href="../index.html">
+                        <img src="../img/Logo Tags Circular.png" alt="" width="60" height="60">
                     </a>
                 </div>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                <button class="navbar-toggler color-boton" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -38,49 +38,84 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./index.html">INICIO</a>
+                            <a class="nav-link active" aria-current="page" href="../index.html">INICIO</a>
                         </li>
-                
+
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
                                 CATEGORIAS
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">IDENTIFICADORES</a></li>
-                                <li><a class="dropdown-item" href="#">CHAPITAS</a></li>
-                                <li><a class="dropdown-item" href="#">LLAVEROS</a></li>
+                                <li><a class="dropdown-item" href="./identificadores.html">IDENTIFICADORES</a></li>
+                                <li><a class="dropdown-item" href="./chapitas.html">CHAPITAS</a></li>
+                                <li><a class="dropdown-item" href="./llaveros.html">LLAVEROS</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="dropdown-item" href="#">CONTACTO</a></li>
+                                <li><a class="dropdown-item" href="./contacto.html">CONTACTO</a></li>
                             </ul>
                         </li>
 
                     </ul>
                     <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Buscar en Tags3D" aria-label="Search">
-                        <button class="btn btn-outline boton-lupa" type="submit"> <i class="fa-solid fa-magnifying-glass"> </i> </button>
+                        <input class="form-control me-2" type="search" placeholder="Buscar en Tags3D"
+                            aria-label="Search">
+                        <button class="btn btn-outline boton-lupa" type="submit"> <i
+                                class="fa-solid fa-magnifying-glass"> </i> </button>
                     </form>
                 </div>
             </div>
         </nav>
 
     </header>
+
     <main>
-        
+
+        <h2 class="centrar">IDENTIFICADORES</h2>
+        <br>
+        <!-- Cards -->
+        <div class="row">
+            <div class="card col-xl-4" style="width: 18rem;">
+                <img src="../img/Llavero Among us.jpg" class="card-img-top" alt="Llavero">
+                <div class="card-body">
+                    <h5 class="card-title">Among Us</h5>
+                    <p class="card-text">Llavero Among Us impreso en 3D.</p>
+                    <a href="#" class="btn color-boton">Ver más</a>
+                </div>
+            </div>
+            <div class="card col-xl-4" style="width: 18rem;">
+                <img src="../img/Llavero BTS.jpg" class="card-img-top" alt="Llavero">
+                <div class="card-body">
+                    <h5 class="card-title">BTS</h5>
+                    <p class="card-text">Llavero BTS impreso en 3D.</p>
+                    <br>
+                    <a href="#" class="btn color-boton">Ver más</a>
+                </div>
+            </div>
+            <div class="card col-xl-4" style="width: 18rem;">
+                <img src="../img/Llavero Pokemon.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Pokebola</h5>
+                    <p class="card-text">Llavero Pokebola impreso en 3D.</p>
+                    <a href="#" class="btn color-boton">Ver más</a>
+                </div>
+            </div>
+        </div>
+
 
 
 
     </main>
 
     <br><br><br>
-  <footer class="footer">
+
+    <footer class="footer">
 
 
         <div class="grid-container">
             <div class="mediosdepago">
-                
+
                 <h3>Medios de pago</h3>
                 <br><br>
                 <p>Efectivo, MercadoPago, Trasferencia</p>
@@ -88,7 +123,7 @@
             <div class="Redes">
                 <br>
                 <h3>Seguinos en nuestras redes!</h3>
-            
+
                 <section class="redes-sociales">
 
                     <a href="#"> <i class="fa fa-instagram"></i></a>
