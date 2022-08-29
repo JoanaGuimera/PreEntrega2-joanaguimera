@@ -7,7 +7,10 @@
     box-sizing: border-box;
 }
 
-/* HEADER */
+/* ----------HEADER--------- */
+
+/* BANNER */
+
 .banner {
     width: 100%;
     padding: 9rem 3rem;
@@ -25,6 +28,8 @@
     font-size: 90px;
 }
 
+/* BUSCADOR */
+
 .boton-lupa {
     color: rgb(243, 160, 174);
 }
@@ -35,7 +40,7 @@
 }
 
 
-/* MAIN */
+/* ----- MAIN -----*/
 
 h2 {
     font-family: 'Roboto', sans-serif;
@@ -51,6 +56,9 @@ h2 {
     justify-content: space-around;
 }
 
+/* -------FOOTER-------- */
+
+/* Botones */
 .color-boton {
     background-color: rgb(243, 160, 174);
     color: white;
