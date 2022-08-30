@@ -26,7 +26,9 @@
     color: rgb(114, 101, 101);
     font-family: 'Roboto', sans-serif;
     font-size: 90px;
+    animation: titulo 3s 1;
 }
+
 
 /* BUSCADOR */
 
@@ -68,6 +70,23 @@ h2 {
     background-color: rgb(114, 101, 101);
     color: white;
 
+}
+
+/* Animacion Banner */
+
+@keyframes titulo {
+    0%{
+        color: rgb(243, 160, 174);
+        
+    }
+    30%{
+        letter-spacing: 25px;
+        
+    }
+    85%{
+        letter-spacing: 8px;
+    }
+    
 }
 
 /* Media Queries */
